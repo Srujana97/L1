@@ -1,0 +1,1181 @@
+How many times the following methods execute in Junit Testing?
+
+@BeforeClass
+public static void beforeClassMethod(){
+      System.out.print("Before Method");
+}
+@AfterClass
+public static void afterClassMethod(){
+      System.out.print("after Method");
+}
+Single Choice - Select one correct answer from the options list.
+Once for the TestSuite
+Once for all test methods in the class
+Once for every test method in the class
+Twice for every test method in the class
+Q2
+
+QMS is a framework of:
+Single Choice - Select one correct answer from the options list.
+Forms, Checklists
+Template
+Process & Procedure
+All of the above
+Q3
+
+Which of the following is not a metrics?
+Single Choice - Select one correct answer from the options list.
+Quality
+Effort variance
+Cost of Quality
+Productivity
+Q4
+
+Given:
+
+<h1 id="header1">Capgemini India</h1>
+
+Which of the following Javascript code snippet will change text within <h1> tag to University?
+Single Choice - Select one correct answer from the options list.
+document.getElementById('header1').value="University";
+document.getElementById('header1').text="University";
+document.getElementById('header1').innerHTML="University";
+document.getElementById('header1').content="University";
+Q5
+
+Given HTML code snippet:
+
+<INPUT type="radio" value="CSS3" name="tech">CSS3<br>
+<INPUT type="radio" value="Javascript" name="tech">Javascript <br>
+<INPUT type="radio" value="HTML5" name="tech">HTML5<br>
+<INPUT type="radio" value="XML" name="tech">XML<br>
+
+How many radio buttons can be selected at a time?
+Single Choice - Select one correct answer from the options list.
+4
+3
+2
+1
+Q6
+
+What is the correct CSS syntax for making all the <p> elements bold?
+Single Choice - Select one correct answer from the options list.
+<p style="font-size:bold;">
+p{font-weight:bold}
+p{text-size:bold}
+<p style="text-size:bold;">
+Q7
+
+How do you find out which character occurs at 5th position in string "abcdefgh", in javascript code?
+Single Choice - Select one correct answer from the options list.
+substring()
+String()
+Stringlength()
+charAt()
+Q8
+
+What is the correct syntax for referring to an external script called "script.js"?
+Single Choice - Select one correct answer from the options list.
+<script href="script.js">
+<script src="script.js">
+<script file="script.js">
+<script src="script">
+Q9
+
+Whenever any step is required to perform in each scenario then those steps needs to be placed 
+in Background. For Instance: If user needs to clear database before each scenario then those 
+steps can be put in __________.
+Single Choice - Select one correct answer from the options list.
+When
+Given
+Background
+Then
+Q10
+
+Choose the correct scenario which is valid as per Gherkin specification.
+Single Choice - Select one correct answer from the options list.
+Scenario Outline: Create ABC
+
+Given I open the application
+When I enter username as <username>
+And I enter password as <password>
+Then I enter title as <title>
+And press submit
+
+Examples:
+| username | password | title |
+| Rob | xyz1 | title1 |
+| Bob | xyz1 | title2 |
+
+Scenario: Create ABC
+
+Given I open the application
+When I enter username as <username>
+And I enter password as <password>
+Then I enter title as <title>
+And press submit
+
+Examples:
+| username | password | title |
+| Rob | xyz1 | title1 |
+| Bob | xyz2 | title2 |
+
+Scenario: Create ABC
+
+Given I open the application
+When I enter username as Rob
+And I enter password as xyz1
+Then I enter title as title1
+And press submit
+When I enter username as Bob
+And I enter password as xyz2
+Then I enter title as title2
+And press submit
+
+Scenario Outline: Create ABC
+
+Given I open the application
+When I enter username as Bob and Rob
+And I enter password as xyz1 and xyz2
+Then I enter title as title1 and title2
+And press submit
+
+Q11
+
+Choose the correct sequence in such way you can create user stories and pass step def in cucumber.
+Single Choice - Select one correct answer from the options list.
+1.Describe Behavior using user stories.
+2.Write step definition
+3.Run and fail
+4.Write code to make step pass
+5.Run and Pass
+
+1.Write step definition
+2.Describe Behavior using user stories.
+3.Run and Pass
+4.Write code to make step pass
+5.Run and fail
+
+1.Write step definition
+2.Describe Behavior using user stories.
+3.Run and Pass
+4.Run and fail
+5.Write code to make step pass
+
+1.Run and Pass
+2.Describe Behavior using user stories.
+3.Write code to make step pass
+4.Run and fail
+5.Write step definition
+
+Q12
+
+Select the command which is used to check the presence of a certain element.
+Single Choice - Select one correct answer from the options list.
+verifyTable
+verifyTitlePresent
+verifyTextPresent
+verifyElementPresent
+Q13
+
+Select the command which is used to print a string value or a variable in Selenium IDE.
+Single Choice - Select one correct answer from the options list.
+The 'display' command
+The 'echo' command
+The 'print' command
+The 'println' command
+Q14
+
+The Web driver is used :
+Single Choice - Select one correct answer from the options list.
+To execute tests on the HtmlUnit browser.
+To design a test using Selenese
+To quickly create tests
+To test a web application against Firefox only.
+Q15
+
+Choose all BDD frameworks:  (Choose 3)
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+Cucmber
+Specflow
+JBehave
+.NET
+Q16
+
+Every Scenario/ Scenario Outline must be a valid test case.
+Single Choice - Select one correct answer from the options list.
+TRUE
+FALSE
+Q17
+
+Consider the following code snippet: 
+
+@RunWith(Cucumber.class) 
+@Cucumber.Options(format = {"pretty", "html:target/cucumber"}, tags = {"@dev,~@wip"}) 
+
+public class runTest { }
+Single Choice - Select one correct answer from the options list.
+scenarios matching both (@dev,~@wip) these tag needs to be executed.
+scenarios matching any of this tag(@dev,~@wip) needs to be executed.
+this will ignore all test case which has tag as @wip
+this will execute all test cases except @dev and @wip tag tests.
+Q18
+
+Choose all the keywords which you use in Gherkin user stories to represent the requirements.
+Single Choice - Select one correct answer from the options list.
+Background
+Given
+When
+Then
+All the above
+Q19
+
+______ brings the same concept to the .NET world and allows the developer to express the feature 
+in plain Englishlanguage. It also allows to write specification in human readable Gherkin format.
+Single Choice - Select one correct answer from the options list.
+Cucmber
+Specflow
+JBehave
+.NET
+Q20
+
+What is the equavalent code for the below instruction?
+
+driver.findElement(By.id("username"))
+Single Choice - Select one correct answer from the options list.
+@FindBy(id="username")
+private WebElement user_name;
+
+@FindBy(name="username")
+private WebElement user_name;
+
+@FindBy(xpath="username")
+private WebElement user_name;
+
+@FindBy(css="username")
+private WebElement user_name;
+
+Q21
+
+Match the following:
+
+1. Feature
+2. Scenario
+3. Given-When-Then
+4. And
+
+A. Additional test constructs
+B. A test case
+C. Single file, ideally describing single feature.
+D. Test preconditions, Execution and Post conditions
+Single Choice - Select one correct answer from the options list.
+1-A , 2-B , 3-C , 4-D
+1-C , 2-B , 3-D , 4-A
+1-D , 2-C , 3-B , 4-A
+1-A , 2-D , 3-B , 4-C
+Q22
+
+Select the method which selects the option at the given index.
+Single Choice - Select one correct answer from the options list.
+selectByIndex()
+selectIndex()
+selectedByIndex()
+selectByIndices()
+Q23
+
+Select the command which is NOT a type of assertion in Selenium IDE.
+Single Choice - Select one correct answer from the options list.
+Assert
+Verify
+WaitFor
+wait
+Q24
+
+Behavior-drivendevelopment(BDD) is a software development __________ in which an application 
+is specified and designed by describing how its behavior should appear to an outside observer.
+Single Choice - Select one correct answer from the options list.
+framework
+methodology
+tool
+none of the above
+Q25
+
+Choose All default tags supported by Cucumber. (Choose 2)
+Multiple Choice - This may have multiple correct answers. Select required answer(s) from the options list.
+@Dev
+@Ignore
+@Develop
+@Test
+Q26
+
+Which command can be used to enter values onto text boxes?
+Single Choice - Select one correct answer from the options list.
+sendsKeys()
+sendKey()
+sendKeys
+sendKeys()
+Q27
+
+Select the operating system which is NOT supported by Selenium IDE.
+Single Choice - Select one correct answer from the options list.
+Unix
+Linux
+windows
+Solaris
+Q28
+
+Select the component which is NOT part of Selenium suite.
+Single Choice - Select one correct answer from the options list.
+Selenium IDE
+Selenium RC
+Selenium Web
+Selenium Grid
+Q29
+
+Which of the given interface is used by application developers to interact with the JPA runtime?
+Single Choice - Select one correct answer from the options list.
+Persistance
+EntityManagerFactory
+EntityManager
+EntityTransaction
+Q30
+
+Which of the following option demonstrates correct way of defining entity class in JPA?
+Single Choice - Select one correct answer from the options list.
+class Customer{
+
+@Column("Name")
+private String name;
+
+}
+
+public class Customer{
+@Id
+private Int custId;
+}
+
+@Table("Customer")
+private class Customer{
+
+}
+
+@Entity
+public class Customer{
+@Id
+int custId;
+}
+
+Q31
+
+Select the correct sequence of steps involved in connecting with the database.
+
+Step 1: Load the driver
+Step 2: ____________ 
+Step 3: ____________ 
+Step 4: Execute the query
+Single Choice - Select one correct answer from the options list.
+Step 2:Establish the connection 
+Step 3: Create the JDBC Statements 
+
+Step 2:Create the JDBC Statements 
+Step 3: Establish the connection
+
+Step 2:Establish the connection
+Step 3: Close the resources 
+
+Step 2:Establish the connection 
+Step 3: Iterate the ResultSet 
+
+Q32
+
+Which tag can be used to define the user defined method in JSP?
+Single Choice - Select one correct answer from the options list.
+Scriptlet Tag <% %>
+Directive Tag <%@ %>
+Expression Tag<%= %>
+Declaration Tag <%! %>
+Q33
+
+Select the correct syntax for JSP EL:
+Single Choice - Select one correct answer from the options list.
+<% expr />
+<%=expr/>
+${expr}
+<!{expr}/>
+!{expr}
+Q34
+
+Which of the following JSP page directive syntax is valid?
+Single Choice - Select one correct answer from the options list.
+<% page import="java.util.ArrayList" %>
+<%! page import="java.util.ArrayList" %>
+<%! page import="java.util.*" %>
+<%@ page import="java.util.ArrayList" %>
+Q35
+
+I have welcome.jsp and menu.jsp file. 
+
+Which of the following statement can be used to add menu.jsp during the translation phase 
+of the welcome.jsp?
+Single Choice - Select one correct answer from the options list.
+<jsp:include page="menu.jsp"/>
+%@include page="menu.jsp"/
+<jsp:include file="menu.jsp"/>
+<%@include file="menu.jsp" %>
+Q36
+
+Consider following code:
+Assume request and response are the objects in code snippet.
+
+ServletContext ctx = getServletContext(); //Line 1
+RequestDispatcher rd = ctx.getRequestDispatcher("WELCOME.html"); //Line 2
+rd.forward(request, response); //Line 3
+
+Choose the correct option.
+Single Choice - Select one correct answer from the options list.
+Line 2 Will cause java.lang.IllegalArgumentException since the path specified in ctx.getRequestDispatcher 
+does not start with "/"
+
+No Compilation Error, but will display 404 error as only servlet or JSP can be passed as URL
+
+Line 3 will cause compilation error.
+
+No Error, Will display the content of WELCOME.html
+
+Q37
+
+Which of the below is a kind of  session management technique which works only for 
+a sequence of dynamically generated forms?
+Single Choice - Select one correct answer from the options list.
+Hidden Form Fields
+Cookies
+URL Rewriting
+None of the above
+Q38
+
+Which one of the below is the correct way to send city parameter with value as 'New' 
+in the following URL?
+Single Choice - Select one correct answer from the options list.
+localhost:8080/EmployeeFinder/Top10?city=New
+localhost:8080/EmployeeFinder/Top10&city=New
+localhost:8080/EmployeeFinder/Top10/city=New
+localhost:8080/EmployeeFinder/Top10Param=city="New"
+Q39
+
+What can happen without Configuration Management System?
+Single Choice - Select one correct answer from the options list.
+Review / Delivery of wrong version of code
+We would be able to know who made changes to the project artifacts
+We would be able to know when were the changes made to the project artifacts
+We would be able to know what changes are made to the project artifacts
+Q40
+
+Which of the following is true for reviews?
+Single Choice - Select one correct answer from the options list.
+Can be done in all SDLC phases
+Is done after testing
+Only done by self
+Code can only be tested not reviewed
+Q41
+
+Which of the given statement is not true about functional testing?
+Single Choice - Select one correct answer from the options list.
+Functional testing is to validate functional requirements
+Security Testing is a Functional Testing
+It works as a part of System Testing
+The test cases are written from the requirement documents by the QA team 
+as a parallel activity once the requirements are frozen
+Q42
+
+Refer to the given structure of table EMP:
+
+Name                                      Null?    Type
+----------------------------------------- -------- -------------
+
+EMPNO                                     NOT NULL NUMBER(4)
+ENAME                                              VARCHAR2(10)
+JOB                                                VARCHAR2(9)
+MGR                                                NUMBER(4)
+HIREDATE                                           DATE
+SAL                                                NUMBER(7,2)
+COMM                                               NUMBER(7,2)
+DEPTNO                                             NUMBER(2)
+
+Which of the following queries would you use to update salary of 'KING' to 75% of FORD's 
+salary whose Empno is 7902?
+Single Choice - Select one correct answer from the options list.
+UPDATE Emp
+SET Sal = (SELECT sal
+FROM Emp
+WHERE Empno = 7902)*0.75
+WHERE Ename = 'KING';
+
+UPDATE Emp
+SET Sal := (SELECT sal FROM Emp
+WHERE Empno = 7902)*0.75
+WHERE Ename = 'KING';
+
+UPDATE Emp
+SET Sal = PRODUCT((SELECT sal FROM Emp
+WHERE Empno = 7902),0.75)
+and Ename = 'KING';
+
+UPDATE Emp
+SET Sal = PRODUCT(sal,0.75)
+and Ename = 'KING';
+
+Q43
+
+Product Table:
+
+
+What will be the output of below query assuming only 8 records are there in the table?
+
+SELECT category  FROM product
+GROUP BY category 
+HAVING SUM(price) =(SELECT MIN(SUM(price)) FROM product GROUP BY category);
+Single Choice - Select one correct answer from the options list.
+Home Appliances
+Home Furnishing
+Computer Accessory
+Home Appliances
+Computer Accessory
+Clothing
+Q44
+
+Which type of Join is explained through below example?
+
+SELECT emp.emp_code, emp.emp_name, mgr.emp_code, mgr.emp_name
+ FROM employee emp,employee mgr
+  WHERE emp.mgr_code = mgr.emp_code;
+Single Choice - Select one correct answer from the options list.
+Equi Join
+Outer Join
+Cartesian Join
+Self Join
+Q45
+
+See the code below.
+
+CREATE OR REPLACE PROCEDURE Print  IS
+ BEGIN
+    DBMS_OUTPUT.PUT_LINE('ROW INSERTED');
+ END;
+ /
+
+CREATE OR REPLACE PROCEDURE ADD_ROWS
+ (V_ID IN NUMBER, V_ENAME VARCHAR2)  IS
+ BEGIN
+   INSERT INTO EMP(EMPNO,ENAME) VALUES(V_ID,V_ENAME);
+ END;
+/
+
+The procedure ADD_ROWS must invoke the procedure Print. 
+Which statement will successfully invoke this Print procedure from within 
+the ADD_ROWS procedure?
+Single Choice - Select one correct answer from the options list.
+CALL Print;
+RUN Print();
+EXEC Print;
+Print;
+Q46
+
+Select correct option which lists types of dependancy injection.
+Single Choice - Select one correct answer from the options list.
+Constructor injection
+Setter injection
+method injection
+Setter injection 
+Constructor injection
+Q47
+
+Shyam wants to avoid the usage of XML configuration in his spring application. 
+Also he doesn't want to use any explicit server for deployment of an application. 
+Which component he should use in development environment to achieve this task?
+Single Choice - Select one correct answer from the options list.
+Spring Framework
+Spring Cloud
+Spring Boot
+Spring XD
+Q48
+
+The _________element in spring configuration file scans a package and all of its subpackages, 
+looking for classes that could be automatically registered as beans in the Spring container.
+Single Choice - Select one correct answer from the options list.
+<component:auto-scan>
+<context:component-scan>
+<bean:package-autoscan>
+<bean-config:package-autoscan>
+Q49
+
+User has entered a value in text box. Using which annotation , we can retrieve that value 
+in Spring application?
+Single Choice - Select one correct answer from the options list.
+@PathVariable
+@Param
+@RequestHeader
+@RequestParam
+@Path
+Q50
+
+Which  given statement is true about @Repository?
+Single Choice - Select one correct answer from the options list.
+It indicates that the class serves the role of a controller, and detects @RequestMapping annotations 
+within the class
+It indicates that the class holds business logic and calls methods in the repository layer
+It indicates that the class defines a data repository; its job is to catch platform-specific exceptions 
+and re-throw them as one of Spring's unified unchecked exceptions
+None of the above
+Q51
+
+<context:component-scan> element in Spring configuration file looks for classes that 
+are annotated with which one of the following:
+Single Choice - Select one correct answer from the options list.
+Controller
+Repository
+Component
+All of the above
+Q52
+
+ @Entity
+ @Table(name="Employee")
+public class Employee implements Serializable {
+ @Id
+//line1
+ private int employeeId;
+ private int age;
+}
+
+In the above class for generating employeeId automatically, which of the given annotation 
+should be added at line 1?
+Single Choice - Select one correct answer from the options list.
+@GeneratedValue(strategy=GenerationType.AUTO)
+@GeneratedValue(type=GenerationType.AUTO)
+@GeneratedValue(type=AUTO)
+@GeneratedValue(strategy=AUTO)
+Q53
+
+Which of the following code defines a base URI for the given spring controller?
+Single Choice - Select one correct answer from the options list.
+@Controller
+@UriMapping("/home")
+public class HomeController
+{
+}
+
+@Controller
+@ReqMapping(baseUri="/home")
+public class HomeController
+{
+}
+
+@Controller
+@BaseUri("/home")
+public class HomeController
+{
+}
+
+@Controller
+@RequestMapping("/home")
+public class HomeController
+{
+}
+
+Q54
+
+class MyThread implements Runnable{
+public void run(){
+//some code here .....
+}
+}
+public class ThreadDemo 
+{
+public static void main(String []args){
+Thread thread = new Thread(new MyThread());
+//line 1
+}}
+
+Which of the given call, when inserted at line 1 will cause the thread to begin the execution?
+Single Choice - Select one correct answer from the options list.
+thread.begin()
+thread.join()
+thread.join(100)
+thread.start()
+Q55
+
+Consider table "Student" with following columns stud_code(number), stud_name(Varchar) and age(number). 
+Prepared statement is created as follows:
+
+PreparedStatement pst=con.prepareStatement 
+("insert into Student values(?,?,?)); 
+ ___________________  // (Which code is required here)
+int rowsupdated=pst.executeUpdate();
+
+Which of the following is appropriate code that we can insert in blanks?
+Single Choice - Select one correct answer from the options list.
+pst.setString(1, 123)
+pst.setString(2, "Vidya");
+pst.setString(3, 23);
+
+pst.setInt(1, 123);
+pst.setString(2, "Vidya");
+pst.setInt(3, 23);
+
+pst.setInt(1, 123)
+pst.setString(2, "Vidya");
+pst.setDate(3, "23-Jan-1990");
+
+pst.setInt(1, 123)
+pst.setInt(2, "Vidya");
+pst.setInt(3, 23);
+
+Q56
+
+Which statement is true about Exception Handling of Java?
+Single Choice - Select one correct answer from the options list.
+It is mandatory to write a finally block
+Finally block executes only if exception does not occur
+Finally block always execute irrespective if an exception occurs or not
+Finally block executes only if exception occurs
+Q57
+
+Which of the below collection type has following characteristics?
+
+1. allows you to grow or shrink its size. 
+2. provides indexed access to its elements. 
+3. methods are not synchronized
+Single Choice - Select one correct answer from the options list.
+Vector
+HashSet
+ArrayList
+LinkedHashSet
+Q58
+
+What is the output of below code?
+
+DateTimeFormatter formatter= DateTimeFormatter.ofPattern("dd-MMM-yyyy");
+  String printDate =LocalDate.parse("2015-08-11").
+    format(formatter);
+  System.out.println(printDate);
+Single Choice - Select one correct answer from the options list.
+2015-08-2011
+08-Aug-2015
+08-August-2015
+Will throw exception for invalid date format
+Q59
+
+Consider the following code snippet.
+
+Line-1   public class JUnitTest {
+Line-2      @Test 
+Line-3           public void Add() { 
+Line-4       int result = 1; 
+Line-5        int expected = 1; 
+Line-6      //Insert Code here
+Line-7     } } 
+  
+If we want the test to be pass for the above result and expected variable at Line-4 and  Line-5. 
+Which of the following method should be inserted at Line-6 ?
+Single Choice - Select one correct answer from the options list.
+assertIsEquals(expected,result);
+assertNotEquals(result, expected);
+assertEquals(result, expected);
+assertBoolean(result, expected);
+Q60
+
+What happens when the constructor for FileInputStream fails to open a file for reading?
+Single Choice - Select one correct answer from the options list.
+throws a DataFormatException
+throws a FileNotFoundException
+throws a ArrayIndexOutOfBoundsException
+returns null
+Q61
+
+public class StreamDemo {
+
+ public static void main(String[] args) {
+ Stream<String>str = Stream.of("Hello","Hi","Welcome","Hello","world");
+  str.filter((ref)->ref.contains("l")).distinct().forEach((strr)->System.out.println(strr));
+ }}
+
+What is the output of above code?
+Single Choice - Select one correct answer from the options list.
+Hello
+Welcome
+world
+Hello
+Hi
+Welcome
+world
+Hello
+Hi
+world
+Hi
+Welcome
+Hello
+Q62
+
+List out the wrapper classes from below  and select the correct option.
+
+A. Random
+B. Byte
+C. Vector
+D. Integer
+E. Short
+F. Double
+Single Choice - Select one correct answer from the options list.
+B, D & E
+B, D, E & F
+B, D & F
+D,E & F
+Q63
+
+What is the output on following code ?
+
+class Student{
+ int marks=10;
+}
+public class Client {
+  public static void main(String[] args) {
+  Student s= new Student();
+  switch(s.marks){
+  default :System.out.println("100");
+  case 10 :System.out.println("10");
+  case 98 :System.out.println("98");
+   }  
+}
+}
+Single Choice - Select one correct answer from the options list.
+100
+10
+98
+
+100
+
+10
+
+10
+98
+
+Q64
+
+public class StreamDemo {
+
+ public static void main(String[] args) {
+  
+   BiFunction<String,String,String>fun = (str1,str2)->str1+str2;
+   String result=null;
+   result = fun.apply("10", "20");
+   System.out.println(result);
+ }
+}
+
+What will be the output of above code?
+Single Choice - Select one correct answer from the options list.
+1020
+30
+compilation error
+Exception
+Q65
+
+What is the output of the following code?
+
+public class TestApp {
+ public static void main(String[] args) {
+          List<String> strList=Arrays.asList("Neha", "Maya", "Komal", "Harshali", "Disha");
+          List<String> filtered = strList.stream().filter(x -> x.length()> 4).collect(Collectors.toList()); 
+          System.out.printf("filtered list : %s", filtered);
+      }
+}
+Single Choice - Select one correct answer from the options list.
+filtered list : [Komal,Harshali,Disha]
+filtered list : [Neha,Maya,Disha]
+filtered list : [Neha,Maya,Disha,Komal,Harshali]
+Compilation error in filter method call
+Q66
+
+Which of the following Java interface can be used by TreeSet to sort user defined objects?
+Single Choice - Select one correct answer from the options list.
+SortedSet
+SortedMap
+Comparable
+None
+Q67
+
+Integer.parseInt(String str)
+
+The above code raises __________.
+Single Choice - Select one correct answer from the options list.
+IllegalStateException
+NumberFormatException
+ClassCastException
+Not possible for this code to raise any Exception
+Q68
+
+Which of the below lambda expression is not in a valid format?
+Single Choice - Select one correct answer from the options list.
+x -> {return x+10;}
+String s -> s.toUpperCase()
+String s -> System.out.println(s)
+({x, y}) -> {return x+y;};
+Q69
+
+public class AccountManager {
+13. private Map accountTotals = new HashMap();
+14. private int retirementFund;
+15.
+16. public int getBalance(String accountName) {
+17. Integer total = (Integer) accountTotals.get(accountName);
+18. if (total == null)
+19. total = Integer.valueOf(0);
+20. return total.intValue();
+21. }
+23. public void setBalance(String accountName, int amount) {
+24. accountTotals.put(accountName, Integer.valueOf(amount));
+25. }
+26. }
+
+This class is to be updated to make use of appropriate generic types, with no changes in
+behavior (for better or worse). Which of these steps could be performed?
+Single Choice - Select one correct answer from the options list.
+Replace line 13 with
+private Map<String, int> accountTotals = new HashMap<String, int>();
+
+Replace line 13 with
+private Map<String, Integer> accountTotals = new HashMap<String, Integer>();
+
+Replace line 13 with
+private Map<String, int> accountTotals = new HashMap<>();
+
+Replace line 13 with
+private Map<String, Integer> accountTotals = new Map<String,Integer>();
+
+Q70
+
+In Java, try-catch-finally, Pick up the true statement about finally block:
+Single Choice - Select one correct answer from the options list.
+It will not be executed when "Return" statement is called in try block
+It will not be executed when exception is thrown in try block
+It will not be executed in the normal execution of the try block
+It executes in all above mentioned cases
+Q71
+
+What is the output of following code?
+
+Class ExceptionDemo{
+int tryAgain(){
+int a=10;
+try{
+++a;
+}
+catch(FileNotFoundException e){
+a--;
+}
+finally{
+a++;
+}
+return a;
+}
+public static void main(String args[]){
+   ExceptionDemo demo= new ExceptionDemo();
+int val= demo.tryAgain();
+System.out.println(val);
+}
+}
+Single Choice - Select one correct answer from the options list.
+10
+11
+12
+Compilation error as 
+FileNotFoundException is never thrown from try block
+Q72
+
+Which  of the following methods are defined in class Thread?
+
+1.wait()
+2.start()
+3.notify()
+4.run()
+Single Choice - Select one correct answer from the options list.
+1,2
+2,4
+1,2,4
+1,3,4
+Q73
+
+Choose the correct code to create an integer stream from a collection. 
+Single Choice - Select one correct answer from the options list.
+int numbers[]={2,3,4,5};
+Stream<Integer> stream4=IntStream.of(numbers);
+
+IntStream numbers=IntStream.of(2,3,4,5);
+
+IntStream range = IntStream.range(1, 6);
+
+int numbers[]={2,3,4,5};
+IntStream numbers=IntStream.of(numbers);
+
+Q74
+
+Given:
+
+3. import java.util.*;
+4. class Business { }
+5. class Hotel extends Business { }
+6. class Inn extends Hotel { }
+7. public class Travel {
+8. ArrayList<Hotel> go() {
+9. // insert code here
+10. }
+11. }
+
+Which statement inserted independently at line 9 will compile?
+Single Choice - Select one correct answer from the options list.
+return new ArrayList<Inn>();
+return new ArrayList<Hotel>();
+return new ArrayList<Object>();
+return new ArrayList<Business>();
+Q75
+
+public class LambdaDemo {
+
+public static void main(String[] args) 
+{
+  Supplier<String>supplier = ()->"Welcome to Java World";
+  Predicate<String>pred = (str1)->str1.length()>10;
+System.out.println(pred.test(supplier.get()));
+}}
+Single Choice - Select one correct answer from the options list.
+true
+false
+compilation error
+none of the above
+Q76
+
+The following numbered list of Java class components is not in any particular order. 
+
+1. comments
+2.import statement
+3. package statement
+4. methods
+5. class declaration
+6.variables
+
+Select the non acceptable order of their occurrence in any java class:
+Single Choice - Select one correct answer from the options list.
+1 3 2 5 6 4
+3 1 2 5 4 6
+3 2 1 4 5 6
+3 2 1 5 6 4
+Q77
+
+Given the following signature of method addDetails, choose the options that correctly overload this method:
+
+public String addDetails(int age, String name, double duration):
+
+a> private String addDetails(int rollno, String studName, double percent)
+b>public void addDetails(int id, String empname, double salary)
+c>public String addDetails()
+d>String addDetails(String name, double duration)
+e> float addDetails(String name, int age, double duration)
+Single Choice - Select one correct answer from the options list.
+all are correctly overloading the given method.
+only a and b
+c,d and e
+only e
+Q78
+
+Which of the below statement is false?
+Single Choice - Select one correct answer from the options list.
+The class StringBuffer represents the mutable sequence of characters and the class is thread safe
+The class StringBuffer represents the mutable sequence of characters.
+The class String represents the immutable sequence of characters
+The class StringBuilder represents the mutable sequence of characters and the class is thread safe 
+so more faster in execution
+Q79
+
+class Doctor{
+protected int age;
+protected int getAge(){
+return age;
+}
+protected void setAge(int val){
+age=val;
+}
+}
+class Surgeon extends Doctor{
+Surgeon(String val){
+specialization=val;
+}
+String specilization(){
+return specialization;
+}
+}
+class Hospital{
+public static void main(String args[]){
+Surgeon s1=new Surgeon("Brain");
+Surgeon s2=new Surgeon("Heart");
+ s1.age=45;
+System.out.println(s1.age+ " "+ s1.specialization);
+System.out.println(s2.age+ " "+ s2.specialization);
+
+}
+}
+Single Choice - Select one correct answer from the options list.
+45 Brain
+0 Heart
+
+45 Heart
+0 Brain
+
+45 Brain
+45 Heart
+
+45 Heart
+45 Brain
+
+Compilation error
+
+Q80
+
+Given the following code:
+
+What is the correct way  to create object of ColorPencil class ?
+
+class Pencil{
+}
+class ColorPencil extends Pencil{
+String color;
+ColorPencil(String color){
+this.color=color;
+}
+}
+Single Choice - Select one correct answer from the options list.
+ColorPencil pencil= new ColorPencil();
+ColorPencil pencil=new ColorPencil(RED);
+Pencil pencil= new ColorPencil("RED");
+The code will not compile because there is no parameterized constructor in Pencil class
+Developer Tools
+1
+QPA
+23
+Web Basics
+45678
+BDD
+910111213141516171819202122232425262728
+JPA with Hibernate
+2930
+JDBC
+31
+JSP
+32333435
+Servlets
+363738
+Intro to SE
+394041
+Oracle
+42434445
+Spring
+4647484950515253
+Core Java
+545556575859606162636465666768697071727374757677787980
